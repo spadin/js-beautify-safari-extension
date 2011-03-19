@@ -21,9 +21,14 @@
     function handle_messages(msg) {
       $$[msg.name].apply($$, [msg.message]);
     }
+    function validate_command(event) {
+      var url = safari.application.activeBrowserWindow.activeTab.url;
+      event.target.disabled = (url.match(/\.js/ig) == null);
+    }
     
     safari.application.addEventListener("command", perform_command, true);
     safari.application.addEventListener("message", handle_messages, true);
+    safari.application.addEventListener("validate", validate_command, true);
   </script>
 </head>
 <body>
