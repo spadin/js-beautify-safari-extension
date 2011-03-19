@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Safari JS Beautify</title>
+  <script src="lib/js-beautify/beautify.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    var $$ = this;
+  
+    function beautify() {
+      safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("beautify", "");
+    }
+    function beautifyThis(code) {
+      var styled_code = js_beautify(code);
+      safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("beautified", styled_code);
+    }
+    
+    function perform_command(event) {
+      $$[event.command].apply($$);
+    }
+    function handle_messages(msg) {
+      $$[msg.name].apply($$, [msg.message]);
+    }
+    
+    safari.application.addEventListener("command", perform_command, true);
+    safari.application.addEventListener("message", handle_messages, true);
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
