@@ -7,9 +7,9 @@
    <array>
      <dict>
        <key>CFBundleIdentifier</key>
-       <string>net.highlyinteractive.safari-js-beatify</string>
-       <key>B62SE7P7U6</key>
-       <string>YourCertificateID</string>
+       <string>net.highlyinteractive.safari-js-beautify</string>
+       <key>Developer Identifier</key>
+       <string>B62SE7P7U6</string>
        <key>CFBundleVersion</key>
        <string>3</string>
        <key>CFBundleShortVersionString</key>
