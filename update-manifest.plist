@@ -1,0 +1,22 @@
+// http://spadin.github.com/js-beautify-safari-extension/update-manifest.plist
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>Extension Updates</key>
+   <array>
+     <dict>
+       <key>CFBundleIdentifier</key>
+       <string>net.highlyinteractive.safari-js-beatify</string>
+       <key>B62SE7P7U6</key>
+       <string>YourCertificateID</string>
+       <key>CFBundleVersion</key>
+       <string>3</string>
+       <key>CFBundleShortVersionString</key>
+       <string>1.2</string>
+       <key>URL</key>
+       <string>https://github.com/downloads/spadin/js-beautify-safari-extension/safari-js-beautify.safariextz</string>
+     </dict>
+   </array>
+</dict>
+</plist>
