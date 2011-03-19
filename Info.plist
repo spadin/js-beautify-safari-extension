@@ -11,9 +11,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>3</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Context Menu Items</key>
@@ -54,6 +54,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://spadin.github.com/js-beautify-safari-extension/update-manifest.plist</string>
 	<key>Website</key>
 	<string>https://github.com/spadin/js-beautify-safari-extension</string>
 </dict>
