@@ -27,8 +27,8 @@ In the Safari preferences, select the extensions tab, click the js-beautify exte
 Credits and links
 -----------------
 
-Based on [JS Beautifier](http://jsbeautifier.org/)
-Use Google Chrome? [Try this instead](https://github.com/rixth/jsbeautify-for-chrome)
+* Based on [JS Beautifier](http://jsbeautifier.org/)
+* Use Google Chrome? [Try this instead](https://github.com/rixth/jsbeautify-for-chrome)
 
 Download link
 -------------
