@@ -8,6 +8,7 @@ This extension adds a context menu to Safari 5. Right-click (command-click) on a
 How to install
 --------------
 
+<<<<<<< HEAD
 1. Download the extension below.
 2. Double-click to install.
 
