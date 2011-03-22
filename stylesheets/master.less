@@ -1,0 +1,137 @@
+@text-color: #002F2F;
+@body-background-color: #A7A37E; 
+@container-background-color: #E6E2AF;
+@heading-background-color: #EFECCA; 
+
+body {
+  margin: 0;
+  padding: 0;
+  background: @body-background-color;
+  font-family: helvetica, arial, sans-serif;
+  #container {
+    width: 800px;
+    margin: 0 auto;
+    background-color:@container-background-color;
+    height: auto;
+    color: @text-color;
+    h1, h2 {
+      background: @heading-background-color;  
+      padding: 10px 20px;  
+      margin-left: -20px;  
+      position: relative;  
+      width: 100%;  
+
+      -moz-box-shadow: 1px 1px 3px #292929;  
+      -webkit-box-shadow: 1px 1px 3px #292929;  
+      box-shadow: 1px 1px 3px #292929;  
+
+      clear: both;
+      text-shadow: 0 1px 0 white;
+    }
+    h2 {
+      margin-left: auto; 
+      margin-right: -20px;
+      width: auto;
+      float: right;
+      margin-top: 0;
+      text-align: right;
+      a {
+        color: @text-color;
+        text-decoration: none;
+        border-bottom: 1px dotted black;  
+      }
+    }
+    h3 {
+      margin-top: 0;
+      text-shadow: 0 1px 0 white;
+      clear: both;
+    }
+    .nub {
+      width: 0; height: 0;  
+      line-height: 0;    
+      border-top-width: 10px;
+      border-top-style: solid;
+      border-top-color: darken(@container-background-color, 50%);
+      top: 104%;    
+      position: absolute;
+    }
+    .nub.left {
+      border-left: 20px solid transparent;
+      left: 0;
+    }
+    .nub.right {
+      border-right: 20px solid transparent;
+      right: 0;
+    }
+    .addthis_toolbox {
+      width: 185px;
+      height: 40px;
+      padding: 10px;
+      float: right;
+      clear: both;
+    }
+    .contents {
+      float: right;
+      clear: both;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      padding: 10px 20px;
+      width: 40%;
+      background-color: @heading-background-color;
+      dt {
+        font-style: italic;
+      }
+      dd {
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      ul {  
+        margin: 0;
+        padding: 0;
+        margin-left: 20px;
+      }
+    }
+    .slideshow {
+      width: 400px;
+      height: 300px;
+      margin-left: 10px;
+      background-color: @heading-background-color;
+      position: relative;
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+          display: block;
+          float: left;
+          margin: 0;
+          padding: 0;
+        }
+      }
+      input {
+        position: absolute;
+        left: 0;
+        top: 105%;
+      }
+      input.next {
+        margin-left: 70px;
+      }
+    }
+  }
+  #footer {
+    width: 800px;
+    margin: 0 auto;
+    .logo {
+      width: 160px;
+      height: 50px;
+    }
+    
+  }
+  #header {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+br {
+  clear: both;
+}

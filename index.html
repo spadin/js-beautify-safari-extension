@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset='utf-8'>
-  <title>Redirecting to https://github.com/spadin/js-beautify-safari-extension</title>
+  <meta charset=utf-8>
+  <title>JS Beautify Safari Extension</title>
+  <link rel="stylesheet" type="text/css" charset="utf-8" href="stylesheets/master.css">
+  <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="javascripts/jquery.carousel.min.js"></script>
   <script type="text/javascript" charset="utf-8">
-    document.location.href = "https://github.com/spadin/js-beautify-safari-extension";
+    $(function() {
+      $(".slideshow").carousel({ 
+        effect: "fade",
+        loop: true,
+        autoSlide: true,
+        autoSlideInterval: 5000
+      });
+    });
   </script>
 </head>
-<body></body>
+<body>
+  <br>
+  <div id="container">
+    <div class="addthis">
+      <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+        <a class="addthis_button_facebook"></a>
+        <a class="addthis_button_twitter"></a>
+        <a class="addthis_button_delicious"></a>
+        <a class="addthis_button_reddit"></a>
+        <a class="addthis_button_compact"></a>
+      </div>
+      <script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+      <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=spadin"></script>
+    </div>
+    <h1>JS Beautify Safari Extension<span class="nub left"></span><span class="nub right"></span></h1>
+    <div class="contents">
+      <h3>What is this?</h3>
+      <p>This extension adds a context menu to Safari 5. Right-click (command-click) on any .js or .json page and this extension will automatically make that code prettier.</p>
+      <h3>How to install</h3>
+      <ol>
+        <li>Download the extension below.</li>
+        <li>Double-click to install.</li>
+      </ol>
+      <p>This extension only works with Safari 5+.</p>
+      <h3>How to use</h3>
+      <p>Visit any .js or .json webpage. Right-click (command-click) and select JS Beautify.</p>
+      <h3>Frequently asked questions</h3>
+      <dl>
+        <dt>How do I uninstall this extension?</dt><br>
+        <dd>In the Safari preferences, select the extensions tab, click the js-beautify extension, then click uninstall.</dd>
+      </dl>
+      <h3>Credits and links</h3>
+      <ul>
+        <li>Based on <a href="http://jsbeautifier.org/">JS Beautifier</a></li>
+        <li>Use Google Chrome? <a href="https://github.com/rixth/jsbeautify-for-chrome">Try this instead</a></li>
+      </ul>
+    </div>
+    <div class="slideshow">
+      <ul>
+        <li><img src="images/screenshot-1.jpg" width="400" height="300" alt="Screenshot 1"></li>
+        <li><img src="images/screenshot-2.jpg" width="400" height="300" alt="Screenshot 2"></li>
+        <li><img src="images/screenshot-3.jpg" width="400" height="300" alt="Screenshot 3"></li>
+      </ul>
+    </div>
+    <h2 class="right"><a href="https://github.com/downloads/spadin/js-beautify-safari-extension/safari-js-beautify.safariextz">Download Extension</a><span class="nub right"></span></h2>
+    <h2 class="right"><a href="https://github.com/spadin/js-beautify-safari-extension">Fork on Github</a><span class="nub right"></span></h2>
+    <br><br><br>
+  </div>
+  <div id="footer">
+    <h1 class="logo"><a href="http://highlyinteractive.net"><img src="images/logo.png" alt="Highly Interactive"></a></h1>
+  </div>
+</body>
 </html>
