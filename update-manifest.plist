@@ -10,9 +10,9 @@
        <key>Developer Identifier</key>
        <string>B62SE7P7U6</string>
        <key>CFBundleVersion</key>
-       <string>3</string>
+       <string>4</string>
        <key>CFBundleShortVersionString</key>
-       <string>1.2</string>
+       <string>1.3</string>
        <key>URL</key>
        <string>https://github.com/downloads/spadin/js-beautify-safari-extension/safari-js-beautify.safariextz</string>
      </dict>
